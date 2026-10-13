@@ -1,0 +1,26 @@
+:root {
+  --canvas: #f1eee8;
+  --panel: #f8f6f1;
+  --paper: #fffdf9;
+  --ink: #292824;
+  --muted: #8b837a;
+  --line: #e5dfd6;
+  --line-dark: #d1c7bc;
+  --rose: #a66051;
+  --sage: #71816b;
+  --body: 'Avenir Next', 'Gill Sans', 'Trebuchet MS', sans-serif;
+  --heading: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+  --serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+  --mono: 'SFMono-Regular', Consolas, monospace;
+  --sidebar-width: 220px;
+  --assistant-rail-width: 48px;
+  font-family: var(--body);
+  color: var(--ink);
+  background: var(--canvas);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
